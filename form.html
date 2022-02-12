@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Form</title>
+        <style>
+            *{
+                font-family:'Franklin Gothic Medium';
+            }
+body {
+    background-color:#0c5064;
+}
+form {
+    border: 1px solid #ddd;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    overflow: hidden;
+    background-color: rgb(248, 247, 247);
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 1.5em;
+}
+.form-group input{
+    background-color: rgb(211, 211, 211);
+    border:none !important;
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+}
+textarea{
+    background-color: rgb(211, 211, 211);
+    border:none !important;
+    border-radius: 7px;
+}
+H3,p{
+    font-size:larger;
+}
+button{
+    background-color: #5f85db;
+    width: 20%;
+    border:none;
+    height: 40px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top:30px;
+    margin-left: 300px !important;
+    margin-bottom: 30px !important;
+}
+.head {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+button:hover{
+    box-shadow: 10px 10px 5px #888 !important;
+}
+
+        </style>
+
+    </head>
+    <body class="login">
+        <form>
+            <div class="head">
+            <H3>Login Form</H3>
+            </div>
+        <div class="form-group">
+            <p>First Name</p>
+            <input placeholder="Your name" required>
+            <p>Email Address</p>
+            <input placeholder="Email Address" required>
+            <p>Tel/Number</p>
+            <input placeholder="Phone Number"required></br>
+            </div>
+        <div class="checkbox">
+<p>Services</p>
+<input type="checkbox"> Web design </input></br>
+<input type="checkbox"> App design </input></br>
+<input type="checkbox"> Branding </input></br>
+        </div>
+        <div class="text">
+            <p>Message</p>
+<textarea cols="40" rows="10"placeholder="Describe your service"></textarea></br>
+<button type="button">Submit</button>
+        </div>
+        </form>
+    </body>
+</html>
